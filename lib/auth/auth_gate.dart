@@ -91,7 +91,7 @@ class _AuthPageState extends State<AuthPage> {
         );
       } catch (e) {
         print(e);
-        // Show error message
+       
       }
     }
   }
@@ -219,16 +219,16 @@ class _AuthPageState extends State<AuthPage> {
                         _isLogin ? 'Login' : 'Register',
                         style: TextStyle(
                             color: Colors.white,
-                            fontSize: 20), // Adjust text size
+                            fontSize: 20), 
                       ),
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.black,
                         shape: RoundedRectangleBorder(
                           borderRadius:
-                              BorderRadius.circular(10), // Rounded corners
+                              BorderRadius.circular(10), 
                         ),
                         padding: EdgeInsets.symmetric(
-                            horizontal: 50, vertical: 16), // Button padding
+                            horizontal: 50, vertical: 16), 
                       ),
                     ),
                     TextButton(

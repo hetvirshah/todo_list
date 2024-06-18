@@ -156,7 +156,7 @@ class _HomePageState extends State<HomePage>
               backgroundImage: NetworkImage(_profileImageUrl),
             ),
             onPressed: () {
-              Scaffold.of(context).openDrawer(); // Open drawer on tap of the image
+              Scaffold.of(context).openDrawer(); 
             },
           ),
         ),
@@ -186,7 +186,7 @@ class _HomePageState extends State<HomePage>
                   ),
                   SizedBox(height: 10),
                   Text(
-                    'Hello, ${_usernameController.text}', // Use _usernameController.text here
+                    'Hello, ${_usernameController.text}', 
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 24,
@@ -377,7 +377,7 @@ class _HomePageState extends State<HomePage>
 
     showModalBottomSheet(
       context: context,
-      isScrollControlled: true, // Make bottom sheet more stretchable
+      isScrollControlled: true, 
       builder: (context) {
         return SingleChildScrollView(
           padding: EdgeInsets.only(
